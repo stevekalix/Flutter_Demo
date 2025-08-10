@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor:Colors.lightBlue,
 
-        appBar: AppBar(title: Text("Hotel Booking",style: 
+        appBar: AppBar(title: Text("Hotel no  Booking",style: 
         TextStyle(color: Colors.white),
         ),
         backgroundColor:Colors.black,
