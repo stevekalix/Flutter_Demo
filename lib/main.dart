@@ -19,8 +19,35 @@ class MainApp extends StatelessWidget {
         TextStyle(color: Colors.white),
         ),
         backgroundColor:Colors.black,
+
         ),
-       
+
+        body: 
+        Container(
+         decoration: BoxDecoration(color: const Color.fromARGB(255, 157, 150, 141),
+         borderRadius: BorderRadius.circular(10),
+         boxShadow:[
+          BoxShadow(
+            blurRadius:10.0,
+            spreadRadius:10.0,
+            color: Colors.black,
+            offset:Offset(0,5),
+          )
+         ]
+         ),
+         margin: EdgeInsetsDirectional.only(start:10.0,top: 10.0),
+         padding:EdgeInsetsDirectional.only(top: 20.0,start: 20.0),
+         height:180.0,
+         width:double.infinity,
+         child:  Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text("One",style: TextStyle(fontSize: 30.0),),
+            Text("Two",style: TextStyle(fontSize: 30.0),),
+            Text("Three",style: TextStyle(fontSize: 30.0),)
+          ],
+        ),
+        ),
       ),
     );
   }
